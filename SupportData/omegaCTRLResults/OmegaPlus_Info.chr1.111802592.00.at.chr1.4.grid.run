@@ -1,0 +1,50 @@
+
+
+                                      _______________
+
+                                         OmegaPlus
+                                      _______________
+
+
+
+ OmegaPlus version 3.0.0 released by Nikolaos Alachiotis and Pavlos Pavlidis in December 2014.
+
+
+ Command:
+
+	 omegaplus/OmegaPlus-M -name chr1.111802592.00.at.chr1.4.grid.run -input /home/kutsukos/synology/common/1KGP_phase3_data/ALL.chr1.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf -minsnps 5 -gridFile gridListsCTRL//ctrl.chr1.4.grid -sampleList sampleLists/ERVtest.1.111802592.00.out -grid 420 -threads 16 -minwin 1000 -maxwin 50000 -seed 13124203
+
+
+
+ Input file format (0:ms, 1:fasta, 2:macs, 3:vcf, 4:sf):	3
+ Gap (-) imputation:						OFF
+ Ambiguous character (N) imputation:				OFF
+ Omega search strategy:						Exhaustive
+ Alignment deduction to binary:					OFF
+ Total number of samples in the VCF:				2504
+ *** NOT FOUND: Sample "HG00635" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "NA20898" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "NA19660" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "NA19685" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "HG00733" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "HG03948" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "NA20526" does not exist in the VCF file ***
+ Samples excluded from the analysis:				1761
+
+
+ Alignment 1
+		Sequences:		1486
+		Sites:			6195844
+		Discarded sites:	2514378
+
+		Processing (seconds):	2659.476858
+
+		Max Omega:		0.974262
+		Location:		128193424.00
+		Leftmost SNP:		121485085
+		Rightmost SNP:		142536265
+
+
+ Total elapsed time 2660.544074 seconds.
+
+

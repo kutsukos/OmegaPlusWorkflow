@@ -1,0 +1,61 @@
+
+
+                                      _______________
+
+                                         OmegaPlus
+                                      _______________
+
+
+
+ OmegaPlus version 3.0.0 released by Nikolaos Alachiotis and Pavlos Pavlidis in December 2014.
+
+
+ Command:
+
+	 omegaplus/OmegaPlus-G -name chr12.44313657.00.at.chr18.29.grid.run -input /home/kutsukos/synology/common/1KGP_phase3_data/ALL.chr18.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf -memLimit 15000 -minsnps 5 -gridFile gridListsCTRL//ctrl.chr18.29.grid -sampleList sampleLists/ERVtest.12.44313657.00.out -grid 420 -threads 16 -minwin 1000 -maxwin 50000 -seed 13124203
+
+
+
+ Input file format (0:ms, 1:fasta, 2:macs, 3:vcf, 4:sf):	3
+ Gap (-) imputation:						OFF
+ Ambiguous character (N) imputation:				OFF
+ Omega search strategy:						Exhaustive
+ Alignment deduction to binary:					OFF
+ Total number of samples in the VCF:				2504
+ *** NOT FOUND: Sample "HG00635" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "HG00702" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "NA20341" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "HG02387" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "HG02388" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "HG00124" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "NA20871" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "NA20893" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "NA20898" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "HG03715" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "NA19311" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "NA19660" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "NA19675" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "NA19685" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "HG00733" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "HG03948" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "NA20526" does not exist in the VCF file ***
+ *** NOT FOUND: Sample "NA19240" does not exist in the VCF file ***
+ Samples excluded from the analysis:				1019
+
+
+ Alignment 1
+		Sequences:		2970
+		Sites:			2171507
+		Discarded sites:	488791
+
+		Processing (seconds):	1238.292073
+
+		Max Omega:		13.179657
+		Location:		35339104.00
+		Leftmost SNP:		35338221
+		Rightmost SNP:		35350955
+
+
+ Total elapsed time 1239.436365 seconds.
+
+
